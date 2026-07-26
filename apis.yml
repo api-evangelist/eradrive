@@ -1,7 +1,28 @@
 aid: eradrive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eradrive.png
 name: EraDrive
-description: EraDrive is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EraDrive is a space technology company building compact, AI-powered self-driving modules that give
+  spacecraft onboard autonomy — vision-based navigation, control, collision avoidance, and situational
+  awareness computed at the edge. A Stanford Space Rendezvous Laboratory (SLAB) spinoff founded by Sumant
+  Sharma (CEO), Justin Kruger (CTO), and Prof. Simone D'Amico (CSO), EraDrive integrates flight-proven
+  autonomy software with existing satellite infrastructure for space traffic management, on-orbit
+  servicing and logistics, and advanced remote sensing across commercial and defense missions. The
+  company closed an oversubscribed $5.3M seed round in December 2025, co-led by Haystack Ventures with
+  participation from Point Nine, Harpoon Ventures, Brave Capital, 2100 VC, and Entropy Industrial Capital.
+  As an early-stage hardware/software company, EraDrive currently publishes no public API, developer
+  portal, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/eradrive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Space
+- Aerospace
+- Satellite
+- Autonomy
+- Artificial Intelligence
+- Edge Computing
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eradrive-domain-security.yml
 - type: Website
   url: https://www.eradrive.space
+- type: Careers
+  url: https://www.eradrive.space/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
