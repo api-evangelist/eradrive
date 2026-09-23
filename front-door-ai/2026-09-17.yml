@@ -1,0 +1,27 @@
+# Front Door AI Index — eradrive — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: eradrive
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.eradrive.space
+  final_host: www.eradrive.space
+  ownership: own
+  owner: eradrive
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 7
+  host_score: 7
+  density: 7.63
+  words: 918
+  tiers:
+    agentic: 0
+    core: 7
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 5
+    deep learning: 2
+    intelligence: 2
